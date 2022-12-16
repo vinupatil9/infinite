@@ -1,0 +1,642 @@
+{
+ "etype": "OperationalError",
+ "evalue": "OperationalError(1292, \"Incorrect datetime value: 'asas'\")",
+ "exception": {
+  "args": [
+   40,
+   49,
+   50,
+   57,
+   50,
+   44,
+   32,
+   34,
+   73,
+   110,
+   99,
+   111,
+   114,
+   114,
+   101,
+   99,
+   116,
+   32,
+   100,
+   97,
+   116,
+   101,
+   116,
+   105,
+   109,
+   101,
+   32,
+   118,
+   97,
+   108,
+   117,
+   101,
+   58,
+   32,
+   39,
+   97,
+   115,
+   97,
+   115,
+   39,
+   34,
+   41
+  ],
+  "errno": [
+   52,
+   48,
+   56,
+   52
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   79,
+   112,
+   101,
+   114,
+   97,
+   116,
+   105,
+   111,
+   110,
+   97,
+   108,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'http://143.110.242.56/api/method/frappe.desk.form.save.savedocs' [POST]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/frappe/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "67": "",
+    "68": "\t\telif request.path.startswith(\"/api/\"):",
+    "69": "\t\t\tresponse = frappe.api.handle()",
+    "70": "",
+    "71": "\t\telif request.path.startswith(\"/backups\"):"
+   },
+   "lnum": 69
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/frappe/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "52": "\tif call == \"method\":",
+    "53": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "54": "\t\treturn frappe.handler.handle()",
+    "55": "",
+    "56": "\telif call == \"resource\":"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'frappe.desk.form.save.savedocs'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "43": "",
+    "44": "\tif cmd != \"login\":",
+    "45": "\t\tdata = execute_cmd(cmd)",
+    "46": "",
+    "47": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 45
+  },
+  {
+   "call": "(cmd='frappe.desk.form.save.savedocs', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'doc': '{\"name\":\"testq\",\"creation\":\"2022-12-15 ... 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}",
+    "global frappe": "<module 'frappe' from '/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function savedocs>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "81": "\t\tis_valid_http_method(method)",
+    "82": "",
+    "83": "\treturn frappe.call(method, **frappe.form_dict)",
+    "84": "",
+    "85": ""
+   },
+   "lnum": 83
+  },
+  {
+   "call": "(fn=<function savedocs>, *args=(), **kwargs={'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs', 'doc': '{\"name\":\"testq\",\"creation\":\"2022-12-15 18:57:21....nsaved\":1}],\"states\":[],\"links\":[],\"__unsaved\":1}'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function savedocs>",
+    "newargs": "{'action': 'Save', 'doc': '{\"name\":\"testq\",\"creation\":\"2022-12-15 18:57:21....nsaved\":1}],\"states\":[],\"links\":[],\"__unsaved\":1}'}"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1588": "\tnewargs = get_newargs(fn, kwargs)",
+    "1589": "",
+    "1590": "\treturn fn(*args, **newargs)",
+    "1591": "",
+    "1592": ""
+   },
+   "lnum": 1590
+  },
+  {
+   "call": "(doc=<DocType: testq>, action='Save')",
+   "dump": {
+    "doc": "<DocType: testq>",
+    "doc. save": "<bound method Document.save of <DocType: testq>>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/desk/form/save.py",
+   "func": "savedocs",
+   "lines": {
+    "21": "\t\tdoc.submit()",
+    "22": "\telse:",
+    "23": "\t\tdoc.save()",
+    "24": "",
+    "25": "\t# update recent documents"
+   },
+   "lnum": 23
+  },
+  {
+   "call": "(self=<DocType: testq>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "kwargs": "{}",
+    "self": "<DocType: testq>",
+    "self. _save": "<bound method Document._save of <DocType: testq>>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "save",
+   "lines": {
+    "301": "\tdef save(self, *args, **kwargs):",
+    "302": "\t\t\"\"\"Wrapper for _save\"\"\"",
+    "303": "\t\treturn self._save(*args, **kwargs)",
+    "304": "",
+    "305": "\tdef _save(self, ignore_permissions=None, ignore_version=None) -> \"Document\":"
+   },
+   "lnum": 303
+  },
+  {
+   "call": "(self=<DocType: testq>, ignore_permissions=None, ignore_version=None)",
+   "dump": {
+    "self": "<DocType: testq>",
+    "self. run_post_save_methods": "<bound method Document.run_post_save_methods of <DocType: testq>>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "_save",
+   "lines": {
+    "352": "",
+    "353": "\t\tself.update_children()",
+    "354": "\t\tself.run_post_save_methods()",
+    "355": "",
+    "356": "\t\t# clear unsaved flag"
+   },
+   "lnum": 354
+  },
+  {
+   "call": "(self=<DocType: testq>)",
+   "dump": {
+    "self": "<DocType: testq>",
+    "self. run_method": "<bound method Document.run_method of <DocType: testq>>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_post_save_methods",
+   "lines": {
+    "1073": "",
+    "1074": "\t\tif self._action == \"save\":",
+    "1075": "\t\t\tself.run_method(\"on_update\")",
+    "1076": "\t\telif self._action == \"submit\":",
+    "1077": "\t\t\tself.run_method(\"on_update\")"
+   },
+   "lnum": 1075
+  },
+  {
+   "call": "(self=<DocType: testq>, method='on_update', *args=(), **kwargs={})",
+   "dump": {
+    "Document. hook": "<function Document.hook>",
+    "args": "()",
+    "fn": "<function Document.run_method.<locals>.fn>",
+    "global Document": "<class 'frappe.model.document.Document'>",
+    "kwargs": "{}",
+    "out": "undefined",
+    "self": "<DocType: testq>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_method",
+   "lines": {
+    "905": "",
+    "906": "\t\tfn.__name__ = str(method)",
+    "907": "\t\tout = Document.hook(fn)(self, *args, **kwargs)",
+    "908": "",
+    "909": "\t\tself.run_notifications(method)"
+   },
+   "lnum": 907
+  },
+  {
+   "call": "(self=<DocType: testq>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "composed": "<function Document.hook.<locals>.compose.<locals>.runner>",
+    "kwargs": "{}",
+    "method": "'on_update'",
+    "self": "<DocType: testq>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "composer",
+   "lines": {
+    "1257": "",
+    "1258": "\t\t\tcomposed = compose(f, *hooks)",
+    "1259": "\t\t\treturn composed(self, method, *args, **kwargs)",
+    "1260": "",
+    "1261": "\t\treturn composer"
+   },
+   "lnum": 1259
+  },
+  {
+   "call": "(self=<DocType: testq>, method='on_update', *args=(), **kwargs={})",
+   "dump": {
+    "add_to_return_value": "<function Document.hook.<locals>.add_to_return_value>",
+    "args": "()",
+    "fn": "<function Document.run_method.<locals>.fn>",
+    "kwargs": "{}",
+    "self": "<DocType: testq>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "runner",
+   "lines": {
+    "1239": "\t\tdef compose(fn, *hooks):",
+    "1240": "\t\t\tdef runner(self, method, *args, **kwargs):",
+    "1241": "\t\t\t\tadd_to_return_value(self, fn(self, *args, **kwargs))",
+    "1242": "\t\t\t\tfor f in hooks:",
+    "1243": "\t\t\t\t\tadd_to_return_value(self, f(self, method, *args, **kwargs))"
+   },
+   "lnum": 1241
+  },
+  {
+   "call": "(self=<DocType: testq>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "kwargs": "{}",
+    "method_object": "<bound method DocType.on_update of <DocType: testq>>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "fn",
+   "lines": {
+    "902": "\t\t\t# If method found in __dict__, expect it to be callable",
+    "903": "\t\t\tif method in self.__dict__ or callable(method_object):",
+    "904": "\t\t\t\treturn method_object(*args, **kwargs)",
+    "905": "",
+    "906": "\t\tfn.__name__ = str(method)"
+   },
+   "lnum": 904
+  },
+  {
+   "call": "(self=<DocType: testq>)",
+   "dump": {
+    "e": "undefined"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py",
+   "func": "on_update",
+   "lines": {
+    "383": "\t\texcept Exception as e:",
+    "384": "\t\t\tprint(f\"\\n\\nThere was an issue while migrating the DocType: {self.name}\\n\")",
+    "385": "\t\t\traise e",
+    "386": "",
+    "387": "\t\tself.change_modified_of_parent()"
+   },
+   "lnum": 385
+  },
+  {
+   "call": "(self=<DocType: testq>)",
+   "dump": {
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. updatedb": "<bound method MariaDBDatabase.updatedb of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global Meta": "<class 'frappe.model.meta.Meta'>",
+    "global frappe": "<module 'frappe' from '/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "self": "<DocType: testq>",
+    "self. name": "'testq'"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py",
+   "func": "on_update",
+   "lines": {
+    "380": "",
+    "381": "\t\ttry:",
+    "382": "\t\t\tfrappe.db.updatedb(self.name, Meta(self))",
+    "383": "\t\texcept Exception as e:",
+    "384": "\t\t\tprint(f\"\\n\\nThere was an issue while migrating the DocType: {self.name}\\n\")"
+   },
+   "lnum": 382
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, doctype='testq', meta=<Meta: testq>)",
+   "dump": {
+    "db_table": "<frappe.database.mariadb.schema.MariaDBTable object>",
+    "db_table. sync": "<bound method DBTable.sync of <frappe.database.mariadb.schema.MariaDBTable object>>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/database/mariadb/database.py",
+   "func": "updatedb",
+   "lines": {
+    "406": "",
+    "407": "\t\t\tself.commit()",
+    "408": "\t\t\tdb_table.sync()",
+    "409": "\t\t\tself.begin()",
+    "410": ""
+   },
+   "lnum": 408
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.schema.MariaDBTable object>)",
+   "dump": {
+    "self": "<frappe.database.mariadb.schema.MariaDBTable object>",
+    "self. alter": "<bound method MariaDBTable.alter of <frappe.database.mariadb.schema.MariaDBTable object>>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/database/schema.py",
+   "func": "sync",
+   "lines": {
+    "42": "\t\telse:",
+    "43": "\t\t\tfrappe.cache().hdel(\"table_columns\", self.table_name)",
+    "44": "\t\t\tself.alter()",
+    "45": "",
+    "46": "\tdef create(self):"
+   },
+   "lnum": 44
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.schema.MariaDBTable object>)",
+   "dump": {
+    "e": "undefined"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py",
+   "func": "alter",
+   "lines": {
+    "122": "\t\t\t\t)",
+    "123": "\t\t\telif e.args[0] == 1067:",
+    "124": "\t\t\t\tfrappe.throw(str(e.args[1]))",
+    "125": "\t\t\telse:",
+    "126": "\t\t\t\traise e"
+   },
+   "lnum": 126
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.schema.MariaDBTable object>)",
+   "dump": {
+    "frappe. db": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "frappe.db. sql": "<bound method Database.sql of <frappe.database.mariadb.database.MariaDBDatabase object>>",
+    "global frappe": "<module 'frappe' from '/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "query": "'ALTER TABLE `tabtestq` MODIFY `t3` datetime(6)'"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py",
+   "func": "alter",
+   "lines": {
+    "108": "\t\t\t\t\tquery_body = \", \".join(query_parts)",
+    "109": "\t\t\t\t\tquery = f\"ALTER TABLE `{self.table_name}` {query_body}\"",
+    "110": "\t\t\t\t\tfrappe.db.sql(query)",
+    "111": "",
+    "112": "\t\texcept Exception as e:"
+   },
+   "lnum": 110
+  },
+  {
+   "call": "(self=<frappe.database.mariadb.database.MariaDBDatabase object>, query='ALTER TABLE `tabtestq` MODIFY `t3` datetime(6)', values=None, as_dict=0, as_list=0, formatted=0, debug=False, ignore_ddl=0, as_utf8=0, auto_commit=0, update=None, explain=False, run=True, pluck=False)",
+   "dump": {
+    "query": "'ALTER TABLE `tabtestq` MODIFY `t3` datetime(6)'",
+    "self": "<frappe.database.mariadb.database.MariaDBDatabase object>",
+    "self. _cursor": "<pymysql.cursors.Cursor object>",
+    "self._cursor. execute": "<bound method Cursor.execute of <pymysql.cursors.Cursor object>>",
+    "values": "None"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/database/database.py",
+   "func": "sql",
+   "lines": {
+    "216": "",
+    "217": "\t\ttry:",
+    "218": "\t\t\tself._cursor.execute(query, values)",
+    "219": "\t\texcept Exception as e:",
+    "220": "\t\t\tif self.is_syntax_error(e):"
+   },
+   "lnum": 218
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, query='ALTER TABLE `tabtestq` MODIFY `t3` datetime(6)', args=None)",
+   "dump": {
+    "query": "'ALTER TABLE `tabtestq` MODIFY `t3` datetime(6)'",
+    "result": "undefined",
+    "self": "<pymysql.cursors.Cursor object>",
+    "self. _query": "<bound method Cursor._query of <pymysql.cursors.Cursor object>>"
+   },
+   "file": "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py",
+   "func": "execute",
+   "lines": {
+    "146": "        query = self.mogrify(query, args)",
+    "147": "",
+    "148": "        result = self._query(query)",
+    "149": "        self._executed = query",
+    "150": "        return result"
+   },
+   "lnum": 148
+  },
+  {
+   "call": "(self=<pymysql.cursors.Cursor object>, q='ALTER TABLE `tabtestq` MODIFY `t3` datetime(6)')",
+   "dump": {
+    "conn": "<pymysql.connections.Connection object>",
+    "conn. query": "<bound method Connection.query of <pymysql.connections.Connection object>>",
+    "q": "'ALTER TABLE `tabtestq` MODIFY `t3` datetime(6)'"
+   },
+   "file": "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py",
+   "func": "_query",
+   "lines": {
+    "308": "        self._last_executed = q",
+    "309": "        self._clear_result()",
+    "310": "        conn.query(q)",
+    "311": "        self._do_get_result()",
+    "312": "        return self.rowcount"
+   },
+   "lnum": 310
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, sql=b'ALTER TABLE `tabtestq` MODIFY `t3` datetime(6)', unbuffered=False)",
+   "dump": {
+    "self": "<pymysql.connections.Connection object>",
+    "self. _affected_rows": "0",
+    "self. _read_query_result": "<bound method Connection._read_query_result of <pymysql.connections.Connection object>>",
+    "unbuffered": "False"
+   },
+   "file": "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "query",
+   "lines": {
+    "546": "            sql = sql.encode(self.encoding, \"surrogateescape\")",
+    "547": "        self._execute_command(COMMAND.COM_QUERY, sql)",
+    "548": "        self._affected_rows = self._read_query_result(unbuffered=unbuffered)",
+    "549": "        return self._affected_rows",
+    "550": ""
+   },
+   "lnum": 548
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, unbuffered=False)",
+   "dump": {
+    "result": "<pymysql.connections.MySQLResult object>",
+    "result. read": "<bound method MySQLResult.read of <pymysql.connections.MySQLResult object>>"
+   },
+   "file": "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_read_query_result",
+   "lines": {
+    "773": "        else:",
+    "774": "            result = MySQLResult(self)",
+    "775": "            result.read()",
+    "776": "        self._result = result",
+    "777": "        if result.server_status is not None:"
+   },
+   "lnum": 775
+  },
+  {
+   "call": "(self=<pymysql.connections.MySQLResult object>)",
+   "dump": {
+    "first_packet": "undefined",
+    "self": "<pymysql.connections.MySQLResult object>",
+    "self. connection": "None",
+    "self.connection._read_packet": "undefined"
+   },
+   "file": "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "read",
+   "lines": {
+    "1154": "    def read(self):",
+    "1155": "        try:",
+    "1156": "            first_packet = self.connection._read_packet()",
+    "1157": "",
+    "1158": "            if first_packet.is_ok_packet():"
+   },
+   "lnum": 1156
+  },
+  {
+   "call": "(self=<pymysql.connections.Connection object>, packet_type=<class 'pymysql.protocol.MysqlPacket'>)",
+   "dump": {
+    "packet": "<pymysql.protocol.MysqlPacket object>",
+    "packet. raise_for_error": "<bound method MysqlPacket.raise_for_error of <pymysql.protocol.MysqlPacket object>>"
+   },
+   "file": "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py",
+   "func": "_read_packet",
+   "lines": {
+    "723": "            if self._result is not None and self._result.unbuffered_active is True:",
+    "724": "                self._result.unbuffered_active = False",
+    "725": "            packet.raise_for_error()",
+    "726": "        return packet",
+    "727": ""
+   },
+   "lnum": 725
+  },
+  {
+   "call": "(self=<pymysql.protocol.MysqlPacket object>)",
+   "dump": {
+    "err. raise_mysql_exception": "<function raise_mysql_exception>",
+    "global err": "<module 'pymysql.err' from '/home/frappe/frappe-...env/lib/python3.10/site-packages/pymysql/err.py'>",
+    "self": "<pymysql.protocol.MysqlPacket object>",
+    "self. _data": "b\"\\xff\\x0c\\x05#22007Incorrect datetime value: 'asas'\""
+   },
+   "file": "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py",
+   "func": "raise_for_error",
+   "lines": {
+    "219": "        if DEBUG:",
+    "220": "            print(\"errno =\", errno)",
+    "221": "        err.raise_mysql_exception(self._data)",
+    "222": "",
+    "223": "    def dump(self):"
+   },
+   "lnum": 221
+  },
+  {
+   "call": "(data=b\"\\xff\\x0c\\x05#22007Incorrect datetime value: 'asas'\")",
+   "dump": {
+    "errno": "1292",
+    "errorclass": "<class 'pymysql.err.OperationalError'>",
+    "errval": "\"Incorrect datetime value: 'asas'\""
+   },
+   "file": "/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py",
+   "func": "raise_mysql_exception",
+   "lines": {
+    "139": "    errval = data[9:].decode(\"utf-8\", \"replace\")",
+    "140": "    errorclass = error_map.get(errno)",
+    "141": "    if errorclass is None:",
+    "142": "        errorclass = InternalError if errno < 1000 else OperationalError",
+    "143": "    raise errorclass(errno, errval)"
+   },
+   "lnum": 143
+  }
+ ],
+ "locals": {
+  "data": "b\"\\xff\\x0c\\x05#22007Incorrect datetime value: 'asas'\"",
+  "errno": "1292",
+  "errorclass": "<class 'pymysql.err.OperationalError'>",
+  "errval": "Incorrect datetime value: 'asas'"
+ },
+ "pyver": "Python 3.10.7: /home/frappe/frappe-bench/env/bin/python (prefix: /home/frappe/frappe-bench/env)",
+ "timestamp": "2022-12-15 13:29:25.253600",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/app.py\", line 69, in application\n    response = frappe.api.handle()\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/api.py\", line 54, in handle\n    return frappe.handler.handle()\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/handler.py\", line 45, in handle\n    data = execute_cmd(cmd)\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/handler.py\", line 83, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py\", line 1590, in call\n    return fn(*args, **newargs)\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/desk/form/save.py\", line 23, in savedocs\n    doc.save()\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py\", line 303, in save\n    return self._save(*args, **kwargs)\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py\", line 354, in _save\n    self.run_post_save_methods()\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py\", line 1075, in run_post_save_methods\n    self.run_method(\"on_update\")\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py\", line 907, in run_method\n    out = Document.hook(fn)(self, *args, **kwargs)\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py\", line 1259, in composer\n    return composed(self, method, *args, **kwargs)\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py\", line 1241, in runner\n    add_to_return_value(self, fn(self, *args, **kwargs))\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/model/document.py\", line 904, in fn\n    return method_object(*args, **kwargs)\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py\", line 385, in on_update\n    raise e\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py\", line 382, in on_update\n    frappe.db.updatedb(self.name, Meta(self))\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/database/mariadb/database.py\", line 408, in updatedb\n    db_table.sync()\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/database/schema.py\", line 44, in sync\n    self.alter()\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py\", line 126, in alter\n    raise e\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py\", line 110, in alter\n    frappe.db.sql(query)\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/database/database.py\", line 218, in sql\n    self._cursor.execute(query, values)\n  File \"/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py\", line 148, in execute\n    result = self._query(query)\n  File \"/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py\", line 310, in _query\n    conn.query(q)\n  File \"/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 548, in query\n    self._affected_rows = self._read_query_result(unbuffered=unbuffered)\n  File \"/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 775, in _read_query_result\n    result.read()\n  File \"/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 1156, in read\n    first_packet = self.connection._read_packet()\n  File \"/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py\", line 725, in _read_packet\n    packet.raise_for_error()\n  File \"/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py\", line 221, in raise_for_error\n    err.raise_mysql_exception(self._data)\n  File \"/home/frappe/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py\", line 143, in raise_mysql_exception\n    raise errorclass(errno, errval)\npymysql.err.OperationalError: (1292, \"Incorrect datetime value: 'asas'\")\n"
+}

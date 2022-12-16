@@ -1,0 +1,465 @@
+2022-12-15 12:09:09,103 ERROR frappe New Exception collected with id: 2022-12-15 12:09:09.018794-171.48.10.117-14f
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ticket_types":[{"docstatus":0,"doctype":"Ticket Types","name":"new-ticket-types-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ticket_class":"VIP","parent":"new-event-master-1","parentfield":"ticket_types","parenttype":"Event Master","idx":1,"__unedited":true}],"booking_capacity":"2000000000000000000000"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 12:09:28,369 ERROR frappe New Exception collected with id: 2022-12-15 12:09:28.273404-171.48.10.117-cc4
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ticket_types":[{"docstatus":0,"doctype":"Ticket Types","name":"new-ticket-types-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ticket_class":"VIP","parent":"new-event-master-1","parentfield":"ticket_types","parenttype":"Event Master","idx":1,"__unedited":true}],"booking_capacity":"2000000000000000000000","event_name":"srfs","conducted_by":"fsf","venue":"fsfs","start_date":"2022-12-15 17:39:21","end_date":"2022-12-15 17:39:24"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 12:09:38,622 ERROR frappe New Exception collected with id: 2022-12-15 12:09:38.619938-171.48.10.117-6e9
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ticket_types":[{"docstatus":0,"doctype":"Ticket Types","name":"new-ticket-types-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ticket_class":"VIP","parent":"new-event-master-1","parentfield":"ticket_types","parenttype":"Event Master","idx":1,"__unedited":true}],"booking_capacity":"20000000","event_name":"srfs","conducted_by":"fsf","venue":"fsfs","start_date":"2022-12-15 17:39:21","end_date":"2022-12-15 17:39:24"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 12:10:04,718 ERROR frappe New Exception collected with id: 2022-12-15 12:10:04.714765-171.48.10.117-a51
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ticket_types":[{"docstatus":0,"doctype":"Ticket Types","name":"new-ticket-types-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ticket_class":"VIP","parent":"new-event-master-1","parentfield":"ticket_types","parenttype":"Event Master","idx":1,"__unedited":false,"price":585,"seats__allocation":686},{"docstatus":0,"doctype":"Ticket Types","name":"new-ticket-types-2","__islocal":1,"__unsaved":1,"owner":"Administrator","ticket_class":"VIP","parent":"new-event-master-1","parentfield":"ticket_types","parenttype":"Event Master","idx":2,"__unedited":true,"price":null}],"booking_capacity":"20000","event_name":"srfs","conducted_by":"fsf","venue":"fsfs","start_date":"2022-12-15 17:39:21","end_date":"2022-12-15 17:39:24"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 12:10:39,954 ERROR frappe New Exception collected with id: 2022-12-15 12:10:39.855435-171.48.10.117-85c
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-2","__islocal":1,"__unsaved":1,"owner":"Administrator","event_name":"grthtrh","conducted_by":"gtrggrt","venue":"gtrgr","booking_capacity":"tgryrt","start_date":"2022-12-15 17:40:23","end_date":"2022-12-15 17:40:26","contact_number":"+919405537046"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 12:12:34,236 ERROR frappe New Exception collected with id: 2022-12-15 12:12:34.234013-171.48.10.117-5b7
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-2","__islocal":1,"__unsaved":1,"owner":"Administrator","event_name":"grthtrh","conducted_by":"gtrggrt","venue":"gtrgr","booking_capacity":"tgryrt","start_date":"2022-12-15 17:40:23","end_date":"2022-12-15 17:40:26","contact_number":"+919405537046"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 12:13:13,362 ERROR frappe New Exception collected with id: 2022-12-15 12:13:13.361284-127.0.0.1-8be
+Site: infinite
+Form Dict: {}
+2022-12-15 12:13:18,042 ERROR frappe New Exception collected with id: 2022-12-15 12:13:18.041053-127.0.0.1-b8c
+Site: infinite
+Form Dict: {}
+2022-12-15 12:13:21,259 ERROR frappe New Exception collected with id: 2022-12-15 12:13:21.258018-127.0.0.1-591
+Site: infinite
+Form Dict: {}
+2022-12-15 12:13:26,066 ERROR frappe New Exception collected with id: 2022-12-15 12:13:26.065425-127.0.0.1-1da
+Site: infinite
+Form Dict: {}
+2022-12-15 12:13:27,197 ERROR frappe New Exception collected with id: 2022-12-15 12:13:27.196601-127.0.0.1-43f
+Site: infinite
+Form Dict: {}
+2022-12-15 12:13:28,779 ERROR frappe New Exception collected with id: 2022-12-15 12:13:28.778199-127.0.0.1-91b
+Site: infinite
+Form Dict: {}
+2022-12-15 12:13:47,393 ERROR frappe New Exception collected with id: 2022-12-15 12:13:47.392317-127.0.0.1-a72
+Site: infinite
+Form Dict: {}
+2022-12-15 12:13:48,139 ERROR frappe New Exception collected with id: 2022-12-15 12:13:48.138343-127.0.0.1-719
+Site: infinite
+Form Dict: {}
+2022-12-15 12:13:48,875 ERROR frappe New Exception collected with id: 2022-12-15 12:13:48.872414-127.0.0.1-c7b
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:23,495 ERROR frappe New Exception collected with id: 2022-12-15 12:21:23.493719-127.0.0.1-846
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:25,157 ERROR frappe New Exception collected with id: 2022-12-15 12:21:25.156339-127.0.0.1-a9e
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:25,160 ERROR frappe New Exception collected with id: 2022-12-15 12:21:25.159645-127.0.0.1-09c
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:25,199 ERROR frappe New Exception collected with id: 2022-12-15 12:21:25.198189-127.0.0.1-de2
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:25,636 ERROR frappe New Exception collected with id: 2022-12-15 12:21:25.635464-127.0.0.1-10d
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:25,656 ERROR frappe New Exception collected with id: 2022-12-15 12:21:25.642702-127.0.0.1-687
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:25,699 ERROR frappe New Exception collected with id: 2022-12-15 12:21:25.689167-127.0.0.1-9da
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:26,105 ERROR frappe New Exception collected with id: 2022-12-15 12:21:26.103845-127.0.0.1-aab
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:26,127 ERROR frappe New Exception collected with id: 2022-12-15 12:21:26.112859-127.0.0.1-48a
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:26,179 ERROR frappe New Exception collected with id: 2022-12-15 12:21:26.178359-127.0.0.1-441
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:26,550 ERROR frappe New Exception collected with id: 2022-12-15 12:21:26.549998-127.0.0.1-2cc
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:26,573 ERROR frappe New Exception collected with id: 2022-12-15 12:21:26.571997-127.0.0.1-46b
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:26,576 ERROR frappe New Exception collected with id: 2022-12-15 12:21:26.575035-127.0.0.1-bc9
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:26,631 ERROR frappe New Exception collected with id: 2022-12-15 12:21:26.630482-127.0.0.1-dbb
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:26,648 ERROR frappe New Exception collected with id: 2022-12-15 12:21:26.647046-127.0.0.1-a11
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:26,871 ERROR frappe New Exception collected with id: 2022-12-15 12:21:26.870978-127.0.0.1-921
+Site: infinite
+Form Dict: {}
+2022-12-15 12:21:26,883 ERROR frappe New Exception collected with id: 2022-12-15 12:21:26.877320-127.0.0.1-7d5
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:15,881 ERROR frappe New Exception collected with id: 2022-12-15 12:49:15.880121-127.0.0.1-a7a
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:16,847 ERROR frappe New Exception collected with id: 2022-12-15 12:49:16.846409-127.0.0.1-33a
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:17,860 ERROR frappe New Exception collected with id: 2022-12-15 12:49:17.858982-127.0.0.1-a77
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:19,207 ERROR frappe New Exception collected with id: 2022-12-15 12:49:19.206279-127.0.0.1-42b
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:20,112 ERROR frappe New Exception collected with id: 2022-12-15 12:49:20.110919-127.0.0.1-f65
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:20,950 ERROR frappe New Exception collected with id: 2022-12-15 12:49:20.948940-127.0.0.1-ccc
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:23,281 ERROR frappe New Exception collected with id: 2022-12-15 12:49:23.280219-127.0.0.1-1b0
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:24,080 ERROR frappe New Exception collected with id: 2022-12-15 12:49:24.079852-127.0.0.1-0fd
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:24,988 ERROR frappe New Exception collected with id: 2022-12-15 12:49:24.987020-127.0.0.1-88b
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:30,843 ERROR frappe New Exception collected with id: 2022-12-15 12:49:30.842603-127.0.0.1-495
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:31,698 ERROR frappe New Exception collected with id: 2022-12-15 12:49:31.696875-127.0.0.1-b75
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:32,424 ERROR frappe New Exception collected with id: 2022-12-15 12:49:32.423698-127.0.0.1-cfc
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:35,984 ERROR frappe New Exception collected with id: 2022-12-15 12:49:35.983475-127.0.0.1-e95
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:36,968 ERROR frappe New Exception collected with id: 2022-12-15 12:49:36.966941-127.0.0.1-74d
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:38,316 ERROR frappe New Exception collected with id: 2022-12-15 12:49:38.315505-127.0.0.1-d4f
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:38,522 ERROR frappe New Exception collected with id: 2022-12-15 12:49:38.521329-127.0.0.1-c8d
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:39,315 ERROR frappe New Exception collected with id: 2022-12-15 12:49:39.314161-127.0.0.1-a0f
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:40,363 ERROR frappe New Exception collected with id: 2022-12-15 12:49:40.362558-127.0.0.1-f74
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:43,018 ERROR frappe New Exception collected with id: 2022-12-15 12:49:43.017373-127.0.0.1-4c9
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:43,870 ERROR frappe New Exception collected with id: 2022-12-15 12:49:43.869167-127.0.0.1-537
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:44,832 ERROR frappe New Exception collected with id: 2022-12-15 12:49:44.831498-127.0.0.1-97e
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:50,297 ERROR frappe New Exception collected with id: 2022-12-15 12:49:50.296618-127.0.0.1-db4
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:51,312 ERROR frappe New Exception collected with id: 2022-12-15 12:49:51.311652-127.0.0.1-984
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:52,357 ERROR frappe New Exception collected with id: 2022-12-15 12:49:52.356115-127.0.0.1-6d7
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:53,478 ERROR frappe New Exception collected with id: 2022-12-15 12:49:53.476912-127.0.0.1-968
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:54,345 ERROR frappe New Exception collected with id: 2022-12-15 12:49:54.344900-127.0.0.1-104
+Site: infinite
+Form Dict: {}
+2022-12-15 12:49:55,448 ERROR frappe New Exception collected with id: 2022-12-15 12:49:55.445117-127.0.0.1-0b9
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:27,233 ERROR frappe New Exception collected with id: 2022-12-15 12:50:27.232444-127.0.0.1-9cf
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:28,261 ERROR frappe New Exception collected with id: 2022-12-15 12:50:28.259713-127.0.0.1-c34
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:29,100 ERROR frappe New Exception collected with id: 2022-12-15 12:50:29.099683-127.0.0.1-42a
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:29,983 ERROR frappe New Exception collected with id: 2022-12-15 12:50:29.982662-127.0.0.1-053
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:30,803 ERROR frappe New Exception collected with id: 2022-12-15 12:50:30.802885-127.0.0.1-e29
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:31,904 ERROR frappe New Exception collected with id: 2022-12-15 12:50:31.902031-127.0.0.1-8d0
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:39,851 ERROR frappe New Exception collected with id: 2022-12-15 12:50:39.850140-127.0.0.1-fc9
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:40,817 ERROR frappe New Exception collected with id: 2022-12-15 12:50:40.816645-127.0.0.1-c8f
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:42,018 ERROR frappe New Exception collected with id: 2022-12-15 12:50:42.016386-127.0.0.1-452
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:43,631 ERROR frappe New Exception collected with id: 2022-12-15 12:50:43.630182-127.0.0.1-f69
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:44,492 ERROR frappe New Exception collected with id: 2022-12-15 12:50:44.491325-127.0.0.1-bb3
+Site: infinite
+Form Dict: {}
+2022-12-15 12:50:45,420 ERROR frappe New Exception collected with id: 2022-12-15 12:50:45.418669-127.0.0.1-ebe
+Site: infinite
+Form Dict: {}
+2022-12-15 12:51:33,020 ERROR frappe New Exception collected with id: 2022-12-15 12:51:33.019145-127.0.0.1-2bf
+Site: infinite
+Form Dict: {}
+2022-12-15 12:51:33,960 ERROR frappe New Exception collected with id: 2022-12-15 12:51:33.959426-127.0.0.1-93d
+Site: infinite
+Form Dict: {}
+2022-12-15 12:51:34,986 ERROR frappe New Exception collected with id: 2022-12-15 12:51:34.984605-127.0.0.1-c74
+Site: infinite
+Form Dict: {}
+2022-12-15 12:51:37,111 ERROR frappe New Exception collected with id: 2022-12-15 12:51:37.110309-127.0.0.1-968
+Site: infinite
+Form Dict: {}
+2022-12-15 12:51:37,825 ERROR frappe New Exception collected with id: 2022-12-15 12:51:37.825010-127.0.0.1-475
+Site: infinite
+Form Dict: {}
+2022-12-15 12:51:38,555 ERROR frappe New Exception collected with id: 2022-12-15 12:51:38.554417-127.0.0.1-41a
+Site: infinite
+Form Dict: {}
+2022-12-15 12:51:39,776 ERROR frappe New Exception collected with id: 2022-12-15 12:51:39.775377-127.0.0.1-be5
+Site: infinite
+Form Dict: {}
+2022-12-15 12:51:40,565 ERROR frappe New Exception collected with id: 2022-12-15 12:51:40.564286-127.0.0.1-2b1
+Site: infinite
+Form Dict: {}
+2022-12-15 12:51:41,387 ERROR frappe New Exception collected with id: 2022-12-15 12:51:41.386074-127.0.0.1-3ee
+Site: infinite
+Form Dict: {}
+2022-12-15 12:52:30,408 ERROR frappe New Exception collected with id: 2022-12-15 12:52:30.407639-127.0.0.1-fca
+Site: infinite
+Form Dict: {}
+2022-12-15 12:52:31,423 ERROR frappe New Exception collected with id: 2022-12-15 12:52:31.422186-127.0.0.1-96a
+Site: infinite
+Form Dict: {}
+2022-12-15 12:52:32,161 ERROR frappe New Exception collected with id: 2022-12-15 12:52:32.160382-127.0.0.1-934
+Site: infinite
+Form Dict: {}
+2022-12-15 12:52:39,635 ERROR frappe New Exception collected with id: 2022-12-15 12:52:39.634453-127.0.0.1-794
+Site: infinite
+Form Dict: {}
+2022-12-15 12:52:40,504 ERROR frappe New Exception collected with id: 2022-12-15 12:52:40.503223-127.0.0.1-9ec
+Site: infinite
+Form Dict: {}
+2022-12-15 12:52:41,164 ERROR frappe New Exception collected with id: 2022-12-15 12:52:41.163014-127.0.0.1-b01
+Site: infinite
+Form Dict: {}
+2022-12-15 12:52:44,051 ERROR frappe New Exception collected with id: 2022-12-15 12:52:44.050484-127.0.0.1-cbb
+Site: infinite
+Form Dict: {}
+2022-12-15 12:52:44,944 ERROR frappe New Exception collected with id: 2022-12-15 12:52:44.942962-127.0.0.1-546
+Site: infinite
+Form Dict: {}
+2022-12-15 12:52:45,588 ERROR frappe New Exception collected with id: 2022-12-15 12:52:45.586869-127.0.0.1-21d
+Site: infinite
+Form Dict: {}
+2022-12-15 12:53:55,809 ERROR frappe New Exception collected with id: 2022-12-15 12:53:55.808031-127.0.0.1-fc8
+Site: infinite
+Form Dict: {}
+2022-12-15 12:54:02,293 ERROR frappe New Exception collected with id: 2022-12-15 12:54:02.293026-127.0.0.1-a70
+Site: infinite
+Form Dict: {}
+2022-12-15 12:54:03,463 ERROR frappe New Exception collected with id: 2022-12-15 12:54:03.462655-127.0.0.1-db7
+Site: infinite
+Form Dict: {}
+2022-12-15 12:54:04,472 ERROR frappe New Exception collected with id: 2022-12-15 12:54:04.471630-127.0.0.1-18d
+Site: infinite
+Form Dict: {}
+2022-12-15 12:54:06,077 ERROR frappe New Exception collected with id: 2022-12-15 12:54:06.076145-127.0.0.1-1d7
+Site: infinite
+Form Dict: {}
+2022-12-15 12:54:06,953 ERROR frappe New Exception collected with id: 2022-12-15 12:54:06.952464-127.0.0.1-830
+Site: infinite
+Form Dict: {}
+2022-12-15 12:54:08,089 ERROR frappe New Exception collected with id: 2022-12-15 12:54:08.088214-127.0.0.1-6c9
+Site: infinite
+Form Dict: {}
+2022-12-15 12:55:05,826 ERROR frappe New Exception collected with id: 2022-12-15 12:55:05.824967-127.0.0.1-e9b
+Site: infinite
+Form Dict: {}
+2022-12-15 12:55:06,737 ERROR frappe New Exception collected with id: 2022-12-15 12:55:06.736538-127.0.0.1-5df
+Site: infinite
+Form Dict: {}
+2022-12-15 12:55:07,832 ERROR frappe New Exception collected with id: 2022-12-15 12:55:07.831038-127.0.0.1-1f7
+Site: infinite
+Form Dict: {}
+2022-12-15 12:55:10,294 ERROR frappe New Exception collected with id: 2022-12-15 12:55:10.293423-127.0.0.1-3e4
+Site: infinite
+Form Dict: {}
+2022-12-15 12:55:11,084 ERROR frappe New Exception collected with id: 2022-12-15 12:55:11.084025-127.0.0.1-6cb
+Site: infinite
+Form Dict: {}
+2022-12-15 12:55:11,944 ERROR frappe New Exception collected with id: 2022-12-15 12:55:11.943170-127.0.0.1-c29
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:31,923 ERROR frappe New Exception collected with id: 2022-12-15 12:58:31.853556-127.0.0.1-96a
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:32,935 ERROR frappe New Exception collected with id: 2022-12-15 12:58:32.862444-127.0.0.1-2f4
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:33,672 ERROR frappe New Exception collected with id: 2022-12-15 12:58:33.671037-127.0.0.1-49b
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:35,346 ERROR frappe New Exception collected with id: 2022-12-15 12:58:35.345147-127.0.0.1-fe7
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:36,013 ERROR frappe New Exception collected with id: 2022-12-15 12:58:36.012268-127.0.0.1-392
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:36,725 ERROR frappe New Exception collected with id: 2022-12-15 12:58:36.724183-127.0.0.1-46c
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:47,226 ERROR frappe New Exception collected with id: 2022-12-15 12:58:47.225677-127.0.0.1-afc
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:48,053 ERROR frappe New Exception collected with id: 2022-12-15 12:58:48.052445-127.0.0.1-b9a
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:48,908 ERROR frappe New Exception collected with id: 2022-12-15 12:58:48.907938-127.0.0.1-6ca
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:57,065 ERROR frappe New Exception collected with id: 2022-12-15 12:58:57.064381-127.0.0.1-0ad
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:57,769 ERROR frappe New Exception collected with id: 2022-12-15 12:58:57.768229-127.0.0.1-f77
+Site: infinite
+Form Dict: {}
+2022-12-15 12:58:58,490 ERROR frappe New Exception collected with id: 2022-12-15 12:58:58.489222-127.0.0.1-309
+Site: infinite
+Form Dict: {}
+2022-12-15 12:59:02,612 ERROR frappe New Exception collected with id: 2022-12-15 12:59:02.537999-127.0.0.1-397
+Site: infinite
+Form Dict: {}
+2022-12-15 12:59:03,321 ERROR frappe New Exception collected with id: 2022-12-15 12:59:03.320584-127.0.0.1-73c
+Site: infinite
+Form Dict: {}
+2022-12-15 12:59:04,040 ERROR frappe New Exception collected with id: 2022-12-15 12:59:04.039756-127.0.0.1-7dc
+Site: infinite
+Form Dict: {}
+2022-12-15 12:59:15,671 ERROR frappe New Exception collected with id: 2022-12-15 12:59:15.671044-127.0.0.1-c3e
+Site: infinite
+Form Dict: {}
+2022-12-15 12:59:16,539 ERROR frappe New Exception collected with id: 2022-12-15 12:59:16.538842-127.0.0.1-0b6
+Site: infinite
+Form Dict: {}
+2022-12-15 12:59:17,389 ERROR frappe New Exception collected with id: 2022-12-15 12:59:17.388525-127.0.0.1-177
+Site: infinite
+Form Dict: {}
+2022-12-15 12:59:52,465 ERROR frappe New Exception collected with id: 2022-12-15 12:59:52.464232-127.0.0.1-cef
+Site: infinite
+Form Dict: {}
+2022-12-15 12:59:53,149 ERROR frappe New Exception collected with id: 2022-12-15 12:59:53.148552-127.0.0.1-f33
+Site: infinite
+Form Dict: {}
+2022-12-15 12:59:53,949 ERROR frappe New Exception collected with id: 2022-12-15 12:59:53.948354-127.0.0.1-edf
+Site: infinite
+Form Dict: {}
+2022-12-15 13:04:38,651 ERROR frappe New Exception collected with id: 2022-12-15 13:04:38.650684-127.0.0.1-078
+Site: infinite
+Form Dict: {}
+2022-12-15 13:04:39,524 ERROR frappe New Exception collected with id: 2022-12-15 13:04:39.523329-127.0.0.1-a01
+Site: infinite
+Form Dict: {}
+2022-12-15 13:04:40,439 ERROR frappe New Exception collected with id: 2022-12-15 13:04:40.434044-127.0.0.1-df5
+Site: infinite
+Form Dict: {}
+2022-12-15 13:04:59,432 ERROR frappe New Exception collected with id: 2022-12-15 13:04:59.431397-127.0.0.1-740
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:00,361 ERROR frappe New Exception collected with id: 2022-12-15 13:05:00.360085-127.0.0.1-741
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:01,405 ERROR frappe New Exception collected with id: 2022-12-15 13:05:01.402170-127.0.0.1-b54
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:03,625 ERROR frappe New Exception collected with id: 2022-12-15 13:05:03.624244-127.0.0.1-b49
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:04,453 ERROR frappe New Exception collected with id: 2022-12-15 13:05:04.452861-127.0.0.1-dfc
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:05,302 ERROR frappe New Exception collected with id: 2022-12-15 13:05:05.298731-127.0.0.1-f8f
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:18,907 ERROR frappe New Exception collected with id: 2022-12-15 13:05:18.906477-127.0.0.1-95c
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:19,700 ERROR frappe New Exception collected with id: 2022-12-15 13:05:19.699310-127.0.0.1-4e9
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:20,551 ERROR frappe New Exception collected with id: 2022-12-15 13:05:20.550478-127.0.0.1-4d3
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:41,967 ERROR frappe New Exception collected with id: 2022-12-15 13:05:41.966033-127.0.0.1-9b6
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:43,041 ERROR frappe New Exception collected with id: 2022-12-15 13:05:43.040243-127.0.0.1-cd4
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:43,739 ERROR frappe New Exception collected with id: 2022-12-15 13:05:43.738423-127.0.0.1-3e6
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:46,127 ERROR frappe New Exception collected with id: 2022-12-15 13:05:46.126255-127.0.0.1-499
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:46,780 ERROR frappe New Exception collected with id: 2022-12-15 13:05:46.779922-127.0.0.1-935
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:47,510 ERROR frappe New Exception collected with id: 2022-12-15 13:05:47.509595-127.0.0.1-67d
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:48,803 ERROR frappe New Exception collected with id: 2022-12-15 13:05:48.802513-127.0.0.1-23d
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:49,493 ERROR frappe New Exception collected with id: 2022-12-15 13:05:49.492351-127.0.0.1-be6
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:50,170 ERROR frappe New Exception collected with id: 2022-12-15 13:05:50.169417-127.0.0.1-6d1
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:51,543 ERROR frappe New Exception collected with id: 2022-12-15 13:05:51.542160-127.0.0.1-b85
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:52,328 ERROR frappe New Exception collected with id: 2022-12-15 13:05:52.327692-127.0.0.1-b69
+Site: infinite
+Form Dict: {}
+2022-12-15 13:05:53,181 ERROR frappe New Exception collected with id: 2022-12-15 13:05:53.180929-127.0.0.1-c65
+Site: infinite
+Form Dict: {}
+2022-12-15 13:09:14,894 ERROR frappe New Exception collected with id: 2022-12-15 13:09:14.883674-171.48.10.117-373
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-1","__islocal":1,"__unsaved":1,"owner":"Administrator","event_name":"aaa","conducted_by":"sdd","venue":"dsds","booking_capacity":"212","start_date":"2022-12-15 18:39:08","end_date":"2022-12-15 18:39:11"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 13:09:42,065 ERROR frappe New Exception collected with id: 2022-12-15 13:09:42.063284-171.48.10.117-1f5
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-1","__islocal":1,"__unsaved":1,"owner":"Administrator","event_name":"aaa","conducted_by":"sdd","venue":"dsds","booking_capacity":"212","start_date":"2022-12-15 18:39:08","end_date":"2022-12-15 18:39:11","contact_number":"+919405537046","ticket_types":[{"docstatus":0,"doctype":"Ticket Types","name":"new-ticket-types-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ticket_class":"VIP","parent":"new-event-master-1","parentfield":"ticket_types","parenttype":"Event Master","idx":1,"__unedited":true}]}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 13:13:29,323 ERROR frappe New Exception collected with id: 2022-12-15 13:13:29.320483-171.48.10.117-db5
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-1","__islocal":1,"__unsaved":1,"owner":"Administrator","event_name":"hhh","conducted_by":"uuu","venue":"ggg","booking_capacity":"115252","start_date":"2022-12-15 18:43:15","end_date":"2022-12-15 18:43:18","contact_number":"+919405537046"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 13:16:59,934 ERROR frappe New Exception collected with id: 2022-12-15 13:16:59.930841-171.48.10.117-3e2
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-1","__islocal":1,"__unsaved":1,"owner":"Administrator","event_name":"www","conducted_by":"def","venue":"scf","booking_capacity":"sf","start_date":"2022-12-15 18:46:51","end_date":"2022-12-15 18:46:52","contact_number":""}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 13:17:18,703 ERROR frappe New Exception collected with id: 2022-12-15 13:17:18.700204-171.48.10.117-22e
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-1","__islocal":1,"__unsaved":1,"owner":"Administrator","event_name":"www","conducted_by":"def","venue":"scf","booking_capacity":"sf","start_date":"2022-12-15 18:46:51","end_date":"2022-12-15 18:46:52","contact_number":"","ticket_types":[{"docstatus":0,"doctype":"Ticket Types","name":"new-ticket-types-1","__islocal":1,"__unsaved":1,"owner":"Administrator","ticket_class":"VIP","parent":"new-event-master-1","parentfield":"ticket_types","parenttype":"Event Master","idx":1,"__unedited":false,"price":6000,"seats__allocation":3000}]}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 13:26:08,025 ERROR frappe New Exception collected with id: 2022-12-15 13:26:08.022826-171.48.10.117-f10
+Site: infinite
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Event Master","name":"new-event-master-1","__islocal":1,"__unsaved":1,"owner":"Administrator","title":"ttat","description":"cdcda","start_date":"2022-12-15 18:56:04","end_date":"2022-12-15 18:56:06"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 13:29:25,282 ERROR frappe New Exception collected with id: 2022-12-15 13:29:25.253395-171.48.10.117-66b
+Site: infinite
+Form Dict: {'doc': '{"name":"testq","creation":"2022-12-15 18:57:21.124757","modified":"2022-12-15 18:58:58.124043","modified_by":"Administrator","owner":"Administrator","docstatus":0,"idx":0,"issingle":0,"is_tree":0,"istable":0,"editable_grid":1,"track_changes":0,"module":"Event Booking System","naming_rule":"","name_case":"","sort_field":"modified","sort_order":"DESC","read_only":0,"in_create":0,"allow_copy":0,"allow_rename":1,"allow_import":0,"hide_toolbar":0,"track_seen":0,"max_attachments":0,"document_type":"","engine":"InnoDB","is_submittable":0,"show_name_in_global_search":0,"custom":0,"beta":0,"has_web_view":0,"allow_guest_to_view":0,"email_append_to":0,"show_title_field_in_link":0,"translated_doctype":0,"is_calendar_and_gantt":0,"quick_entry":1,"track_views":0,"is_virtual":0,"allow_events_in_timeline":0,"allow_auto_repeat":0,"make_attachments_public":0,"default_view":"List","force_re_route_to_default_view":0,"show_preview_popup":0,"index_web_pages_for_search":1,"doctype":"DocType","actions":[],"permissions":[{"name":"5bec337713","creation":"2022-12-15 18:57:21.124757","modified":"2022-12-15 18:58:58.124043","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"testq","parentfield":"permissions","parenttype":"DocType","idx":1,"permlevel":0,"role":"System Manager","read":1,"write":1,"create":1,"submit":0,"cancel":0,"delete":1,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"if_owner":0,"select":0,"set_user_permissions":0,"doctype":"DocPerm","__unsaved":1},{"name":"35e0d88869","creation":"2022-12-15 18:57:21.124757","modified":"2022-12-15 18:58:58.124043","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"testq","parentfield":"permissions","parenttype":"DocType","idx":2,"permlevel":0,"role":"All","read":1,"write":1,"create":1,"submit":0,"cancel":0,"delete":1,"amend":0,"report":1,"export":1,"import":0,"share":1,"print":1,"email":1,"if_owner":0,"select":0,"set_user_permissions":0,"doctype":"DocPerm","__unsaved":1}],"fields":[{"name":"edf17f844b","creation":"2022-12-15 18:57:21.124757","modified":"2022-12-15 18:58:58.124043","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"testq","parentfield":"fields","parenttype":"DocType","idx":1,"fieldname":"t1","label":"t1","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"doctype":"DocField","__unsaved":1},{"name":"7aef9e41ec","creation":"2022-12-15 18:57:21.124757","modified":"2022-12-15 18:58:58.124043","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"testq","parentfield":"fields","parenttype":"DocType","idx":2,"fieldname":"t2","label":"t2","fieldtype":"Data","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"doctype":"DocField","__unsaved":1},{"name":"16c80e8385","creation":"2022-12-15 18:57:21.124757","modified":"2022-12-15 18:58:58.124043","modified_by":"Administrator","owner":"Administrator","docstatus":0,"parent":"testq","parentfield":"fields","parenttype":"DocType","idx":3,"fieldname":"t3","label":"t3","fieldtype":"Datetime","search_index":0,"show_dashboard":0,"hidden":0,"set_only_once":0,"allow_in_quick_entry":0,"print_hide":0,"report_hide":0,"reqd":0,"bold":0,"in_global_search":0,"collapsible":0,"unique":0,"no_copy":0,"allow_on_submit":0,"permlevel":0,"ignore_user_permissions":0,"columns":0,"in_list_view":0,"fetch_if_empty":0,"in_filter":0,"remember_last_selected_value":0,"ignore_xss_filter":0,"print_hide_if_no_value":0,"allow_bulk_edit":0,"in_standard_filter":0,"in_preview":0,"read_only":0,"precision":"","length":0,"translatable":0,"hide_border":0,"hide_days":0,"hide_seconds":0,"non_negative":0,"is_virtual":0,"doctype":"DocField","__unsaved":1}],"states":[],"links":[],"__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2022-12-15 13:34:44,666 ERROR frappe New Exception collected with id: 2022-12-15 13:34:44.661858-171.48.10.117-8c3
+Site: infinite
+Form Dict: {'doctype': 'testq', 'fields': '["`tabtestq`.`name`","`tabtestq`.`owner`","`tabtestq`.`creation`","`tabtestq`.`modified`","`tabtestq`.`modified_by`","`tabtestq`.`_user_tags`","`tabtestq`.`_comments`","`tabtestq`.`_assign`","`tabtestq`.`_liked_by`","`tabtestq`.`docstatus`","`tabtestq`.`idx`"]', 'filters': '[]', 'order_by': '`tabtestq`.`modified` desc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '`tabtestq`.`name`', 'with_comment_count': 'true', 'cmd': 'frappe.desk.reportview.get'}
