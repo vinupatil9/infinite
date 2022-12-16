@@ -1,0 +1,365 @@
+{
+ "etype": "ModuleNotFoundError",
+ "evalue": "ModuleNotFoundError(\"No module named 'event_booking.hooks'\")",
+ "exception": {
+  "args": [
+   40,
+   34,
+   78,
+   111,
+   32,
+   109,
+   111,
+   100,
+   117,
+   108,
+   101,
+   32,
+   110,
+   97,
+   109,
+   101,
+   100,
+   32,
+   39,
+   101,
+   118,
+   101,
+   110,
+   116,
+   95,
+   98,
+   111,
+   111,
+   107,
+   105,
+   110,
+   103,
+   46,
+   104,
+   111,
+   111,
+   107,
+   115,
+   39,
+   34,
+   44,
+   41
+  ],
+  "msg": [
+   34,
+   78,
+   111,
+   32,
+   109,
+   111,
+   100,
+   117,
+   108,
+   101,
+   32,
+   110,
+   97,
+   109,
+   101,
+   100,
+   32,
+   39,
+   101,
+   118,
+   101,
+   110,
+   116,
+   95,
+   98,
+   111,
+   111,
+   107,
+   105,
+   110,
+   103,
+   46,
+   104,
+   111,
+   111,
+   107,
+   115,
+   39,
+   34
+  ],
+  "name": [
+   39,
+   101,
+   118,
+   101,
+   110,
+   116,
+   95,
+   98,
+   111,
+   111,
+   107,
+   105,
+   110,
+   103,
+   46,
+   104,
+   111,
+   111,
+   107,
+   115,
+   39
+  ],
+  "path": [
+   78,
+   111,
+   110,
+   101
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   77,
+   111,
+   100,
+   117,
+   108,
+   101,
+   78,
+   111,
+   116,
+   70,
+   111,
+   117,
+   110,
+   100,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'http://143.110.242.56/api/method/frapp....bundle.L2HAVD4K.js%22%5D&_=1671199930807' [GET]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/frappe/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. validate_auth": "<function validate_auth>",
+    "global frappe": "<module 'frappe' from '/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "58": "\t\tfrappe.monitor.start()",
+    "59": "\t\tfrappe.rate_limiter.apply()",
+    "60": "\t\tfrappe.api.validate_auth()",
+    "61": "",
+    "62": "\t\tif request.method == \"OPTIONS\":"
+   },
+   "lnum": 60
+  },
+  {
+   "call": "()",
+   "dump": {
+    "global validate_auth_via_hooks": "<function validate_auth_via_hooks>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "validate_auth",
+   "lines": {
+    "174": "\t\tvalidate_auth_via_api_keys(authorization_header)",
+    "175": "",
+    "176": "\tvalidate_auth_via_hooks()",
+    "177": "",
+    "178": ""
+   },
+   "lnum": 176
+  },
+  {
+   "call": "()",
+   "dump": {
+    "auth_hook": "undefined",
+    "frappe. get_hooks": "<function get_hooks>",
+    "global frappe": "<module 'frappe' from '/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "validate_auth_via_hooks",
+   "lines": {
+    "258": "",
+    "259": "",
+    "260": "def validate_auth_via_hooks():",
+    "261": "\tfor auth_hook in frappe.get_hooks(\"auth_hooks\", []):",
+    "262": "\t\tfrappe.get_attr(auth_hook)()"
+   },
+   "lnum": 261
+  },
+  {
+   "call": "(hook='auth_hooks', default=[], app_name=None)",
+   "dump": {
+    "global _dict": "<class 'frappe._dict'>",
+    "global _load_app_hooks": "<function _load_app_hooks>",
+    "global hooks": "<module 'frappe.hooks' from '/home/frappe/frappe-bench/apps/frappe/frappe/hooks.py'>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_hooks",
+   "lines": {
+    "1477": "\telse:",
+    "1478": "\t\tif conf.developer_mode:",
+    "1479": "\t\t\thooks = _dict(_load_app_hooks())",
+    "1480": "\t\telse:",
+    "1481": "\t\t\thooks = _dict(cache().get_value(\"app_hooks\", _load_app_hooks))"
+   },
+   "lnum": 1479
+  },
+  {
+   "call": "(*args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "func": "<function _load_app_hooks>",
+    "kwargs": "{}",
+    "return_val": "undefined"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/utils/caching.py",
+   "func": "wrapper",
+   "lines": {
+    "55": "\t\t\treturn frappe.local.request_cache[func][args_key]",
+    "56": "\t\texcept KeyError:",
+    "57": "\t\t\treturn_val = func(*args, **kwargs)",
+    "58": "\t\t\tfrappe.local.request_cache[func][args_key] = return_val",
+    "59": "\t\t\treturn return_val"
+   },
+   "lnum": 57
+  },
+  {
+   "call": "(app_name=None)",
+   "dump": {
+    "app_hooks": "<module 'frappe.hooks' from '/home/frappe/frappe-bench/apps/frappe/frappe/hooks.py'>",
+    "global get_module": "<function get_module>"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "_load_app_hooks",
+   "lines": {
+    "1444": "\tfor app in apps:",
+    "1445": "\t\ttry:",
+    "1446": "\t\t\tapp_hooks = get_module(f\"{app}.hooks\")",
+    "1447": "\t\texcept ImportError:",
+    "1448": "\t\t\tif local.flags.in_install_app:"
+   },
+   "lnum": 1446
+  },
+  {
+   "call": "(modulename='event_booking.hooks')",
+   "dump": {
+    "global importlib": "<module 'importlib' from '/usr/lib/python3.10/importlib/__init__.py'>",
+    "importlib. import_module": "<function import_module>",
+    "modulename": "'event_booking.hooks'"
+   },
+   "file": "/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_module",
+   "lines": {
+    "1320": "def get_module(modulename):",
+    "1321": "\t\"\"\"Returns a module object for given Python module name using `importlib.import_module`.\"\"\"",
+    "1322": "\treturn importlib.import_module(modulename)",
+    "1323": "",
+    "1324": ""
+   },
+   "lnum": 1322
+  },
+  {
+   "call": "(name='event_booking.hooks', package=None)",
+   "dump": {
+    "_bootstrap. _gcd_import": "<function _gcd_import>",
+    "global _bootstrap": "<module '_frozen_importlib' (frozen)>",
+    "level": "0",
+    "name": "'event_booking.hooks'",
+    "package": "None"
+   },
+   "file": "/usr/lib/python3.10/importlib/__init__.py",
+   "func": "import_module",
+   "lines": {
+    "124": "                break",
+    "125": "            level += 1",
+    "126": "    return _bootstrap._gcd_import(name[level:], package, level)",
+    "127": "",
+    "128": ""
+   },
+   "lnum": 126
+  },
+  {
+   "call": "(name='event_booking.hooks', package=None, level=0)",
+   "dump": {},
+   "file": "/home/frappe/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_gcd_import",
+   "lines": {},
+   "lnum": 1050
+  },
+  {
+   "call": "(name='event_booking.hooks', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/home/frappe/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load",
+   "lines": {},
+   "lnum": 1027
+  },
+  {
+   "call": "(name='event_booking.hooks', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/home/frappe/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load_unlocked",
+   "lines": {},
+   "lnum": 1004
+  }
+ ],
+ "locals": {
+  "import_": "<function _gcd_import>",
+  "name": "event_booking.hooks",
+  "parent": "event_booking",
+  "parent_module": "<module 'event_booking' from '/home/frappe/frapp...ch/apps/event_booking/event_booking/__init__.py'>",
+  "path": "['/home/frappe/frappe-bench/apps/event_booking/event_booking']",
+  "spec": "None"
+ },
+ "pyver": "Python 3.10.7: /home/frappe/frappe-bench/env/bin/python (prefix: /home/frappe/frappe-bench/env)",
+ "timestamp": "2022-12-16 14:12:11.820595",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/utils/caching.py\", line 55, in wrapper\n    return frappe.local.request_cache[func][args_key]\nKeyError: 5740354900026072187\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/app.py\", line 60, in application\n    frappe.api.validate_auth()\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/api.py\", line 176, in validate_auth\n    validate_auth_via_hooks()\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/api.py\", line 261, in validate_auth_via_hooks\n    for auth_hook in frappe.get_hooks(\"auth_hooks\", []):\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py\", line 1479, in get_hooks\n    hooks = _dict(_load_app_hooks())\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/utils/caching.py\", line 57, in wrapper\n    return_val = func(*args, **kwargs)\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py\", line 1446, in _load_app_hooks\n    app_hooks = get_module(f\"{app}.hooks\")\n  File \"/home/frappe/frappe-bench/apps/frappe/frappe/__init__.py\", line 1322, in get_module\n    return importlib.import_module(modulename)\n  File \"/usr/lib/python3.10/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n  File \"<frozen importlib._bootstrap>\", line 1050, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1027, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1004, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'event_booking.hooks'\n"
+}
